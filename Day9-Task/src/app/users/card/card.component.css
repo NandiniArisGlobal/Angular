@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mainbox{
+    color: white;
+    height: 380px;
+    width: 300px;
+    padding-left: 40px;
+    padding-right: 50px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content:space-evenly ;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}
+/* .text{
+    color: white;
+}
+.logo{
+    color: white;
+} */
