@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    font-family: cursive;
+}
+h2{
+    color: blue;
+    font-style: italic;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mainbox{
+      height: 60vh;
+      width: 60vw;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.box{
+    height: 350px;
+    width: 550px;
+    border: 2px solid white;
+    text-align: center;
+}
+.radio{
+    margin: 3px;
+}
+.check{
+    margin: 5px;
+}

@@ -1,0 +1,31 @@
+<h1>HELLO</h1>
+<input type="text"  value={{name}} disabled={{disabledBox}}>
+<input type="text"  [value]="name" [disabled]="disabledBox">
+<button (click)="enableInput()">Enable Me</button>
+<br>
+<br>
+<input type="text" placeholder={{name}} value={{name}} disabled={{disabledBox1}}>
+<input type="text" [placeholder]="placename" [value]="" [disabled]="disabledBox1">
+<button (click)="enableInput1()">Enable Me</button>
+<br><br>
+
+<h1 *ngIf="day else elseblock">Hello</h1>
+<h1>Bye</h1>
+<ng-template #elseblock><h1>Content to render when condition is false</h1> </ng-template>
+<br><br>
+<app-user-list></app-user-list>
+<br><br>
+
+<h1 *ngIf="choice==1 then thenBlock else elseBlock">Story Telling</h1>
+<ng-template #thenBlock>Play</ng-template>
+<ng-template #elseBlock>Nothing</ng-template>
+<br><br>
+
+<h1 *ngFor="let name of names">
+  {{name}}
+</h1>
+
+<h2 *ngFor="let obj of details">
+  {{obj.fname}}
+  {{obj.age}}
+</h2>
